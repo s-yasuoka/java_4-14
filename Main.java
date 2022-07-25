@@ -1,6 +1,9 @@
 public class Main{
   public static void main(String[] args){
-    int[] seq = new int[10];
+    int[] scores = {20, 30, 40, 50, 80};
+    for (int value : scores){
+      System.out.println(value);
+    }
 
     
   }
